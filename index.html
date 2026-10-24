@@ -4,277 +4,479 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mening Portfolioim</title>
+    <meta name="description" content="Begzodning shaxsiy portfolio sayti">
+    <title>Begzod | Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <!-- HEADER -->
-    <header class="header">
-        <a href="#home" class="logo">My<span>Portfolio.</span></a>
+    <header class="header" id="home">
+        <a href="#home" class="logo">B<span>.</span></a>
 
         <nav>
             <a href="#home">Bosh sahifa</a>
             <a href="#about">Men haqimda</a>
             <a href="#family">Oilam</a>
-            <a href="#friends">Do‘stlarim</a>
-            <a href="#hobbies">Hobbiylarim</a>
-            <a href="#contact">Aloqa</a>
+            <a href="#teacher">Ustozim</a>
+            <a href="#projects">Loyihalar</a>
+            <a href="#contact" class="nav-contact">Bog‘lanish ↗</a>
         </nav>
     </header>
 
-    <!-- HERO / MEN HAQIMDA -->
-    <section class="hero" id="home">
-        <div class="hero-text">
-            <p class="small-title">ASSALOMU ALAYKUM!</p>
+    <main>
 
-            <h1>Men <span>Begzod</span></h1>
+        <!-- HERO -->
+        <section class="hero" id="about">
+            <div class="hero-content">
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    O‘rganishda va rivojlanishda davom etaman
+                </div>
 
-            <h2>Kelajakdagi dasturchi</h2>
+                <p class="eyebrow">SALOM, MEN BEGZODMAN</p>
 
-            <p>
-                Mening shaxsiy portfolio saytimga xush kelibsiz!
-                Men yangi narsalarni o‘rganishni, zamonaviy saytlar
-                yaratishni va do‘stlarim bilan vaqt o‘tkazishni yaxshi ko‘raman.
-                Bu yerda men, oilam, do‘stlarim va qiziqishlarim haqida
-                bilib olishingiz mumkin.
-            </p>
+                <h1>G‘oyalarni<br>
+                    <span class="gradient-text">haqiqatga</span><br>
+                    aylantiraman.
+                </h1>
 
-            <a href="#about" class="btn">Men haqimda</a>
-            <a href="#contact" class="btn btn-outline">Bog‘lanish</a>
-        </div>
+                <p class="hero-description">
+                    Men dasturlashga qiziqadigan, yangi bilimlarni
+                    o‘rganishni va chiroyli web-saytlar yaratishni
+                    yoqtiradigan yosh dasturchiman.
+                    Bu mening shaxsiy dunyom!
+                </p>
 
-        <div class="hero-image" id="about">
-            <!-- O'zingning rasmingni shu yerga qo'y -->
-            <img src="./photo_2026-10-12_16-12-29.jpg"
-                 alt="Mening rasmim">
-            <div class="image-label">
-                <h3>Bu men!</h3>
-                <p>Kelajak sari qadam</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="button primary">
+                        Loyihalarim <span>↗</span>
+                    </a>
+                    <a href="#contact" class="button secondary">
+                        Men bilan bog‘lanish
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <h3>03<span>+</span></h3>
+                        <p>Namunaviy loyihalar</p>
+                    </div>
+                    <div>
+                        <h3>100<span>%</span></h3>
+                        <p>O‘rganishga tayyorman</p>
+                    </div>
+                    <div>
+                        <h3>∞</h3>
+                        <p>Katta maqsadlar</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
 
-    <!-- OILA A'ZOLARIM -->
-    <section class="section" id="family">
-        <div class="section-heading">
-            <p>MENING ENG YAQINLARIM</p>
-            <h2>Oila <span>a'zolarim</span></h2>
-            <p class="section-description">
-                Mening hayotimdagi eng qadrli insonlar.
-            </p>
-        </div>
+            <div class="hero-visual">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
 
-        <div class="card-grid family-grid">
+                <div class="profile-frame">
+                    <img
+                        src="./photo_2026-10-12_16-12-29.jpg"
+                        alt="Begzodning rasmi"
+                        class="profile-photo"
+                    >
+                    <div class="profile-badge">
+                        <span>✳</span>
+                        Creative Developer
+                    </div>
+                </div>
 
-            <div class="person-card">
-                <img src="./Снимок экрана 2026-10-22 212447.png"
-                     alt="Dadam">
-                <div class="card-info">
+                <div class="floating-card floating-top">
+                    <span class="floating-icon">⌘</span>
+                    <div>
+                        <strong>Creative mind</strong>
+                        <p>Ideas into reality</p>
+                    </div>
+                </div>
+
+                <div class="floating-card floating-bottom">
+                    <span class="floating-icon">✦</span>
+                    <div>
+                        <strong>Always learning</strong>
+                        <p>Every day, better</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT ME -->
+        <section class="section about-section">
+            <div class="section-top">
+                <span class="section-number">01 / ABOUT</span>
+                <span class="section-line"></span>
+            </div>
+
+            <div class="about-layout">
+                <h2 class="section-title">
+                    Men haqimda<br>
+                    <span class="muted-title">bir oz ko‘proq.</span>
+                </h2>
+
+                <div class="about-text">
+                    <p>
+                        Men Begzodman. Hozirda dasturlashni o‘rganaman.
+                        Menga zamonaviy texnologiyalar, web-dizayn va
+                        yangi loyihalar ustida ishlash yoqadi.
+                    </p>
+                    <p>
+                        Maqsadim — bilimlarimni oshirish, foydali
+                        loyihalar yaratish va kelajakda yaxshi dasturchi
+                        bo‘lish. Har bir yangi loyiha men uchun yangi tajriba.
+                    </p>
+
+                    <div class="skill-list">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Web Design</span>
+                        <span>Creative Thinking</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAMILY -->
+        <section class="section" id="family">
+            <div class="section-top">
+                <span class="section-number">02 / MY FAMILY</span>
+                <span class="section-line"></span>
+            </div>
+
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">MENING ENG YAQINLARIM</p>
+                    <h2 class="section-title">Oilam <span class="green">♥</span></h2>
+                </div>
+                <p class="section-subtitle">
+                    Mening baxtim, kuchim va eng katta tayanchim.
+                </p>
+            </div>
+
+            <div class="people-grid family-grid">
+                <article class="person-card">
+                    <img src="./photo_2026-10-24_23-01-20.jpg" alt="Dadam">
+                    <div class="person-overlay">
+                        <span>01 / FAMILY</span>
+                        <h3>Dadam</h3>
+                        <p>Oilamiz tayanchi</p>
+                    </div>
+                </article>
+
+                <article class="person-card">
+                    <img src="./photo_2026-10-24_23-08-42.jpg" alt="Onam">
+                    <div class="person-overlay">
+                        <span>02 / FAMILY</span>
+                        <h3>Onam</h3>
+                        <p>Mehr va muhabbat</p>
+                    </div>
+                </article>
+
+               
+                <article class="person-card">
+                    <img src="./photo_2026-10-24_22-38-00.jpg" alt="Singlim">
+                    <div class="person-overlay">
+                        <span>04 / FAMILY</span>
+                        <h3>Singlim</h3>
+                        <p>Oilamiz quvonchi</p>
+                    </div>
+                </article>
+
+                <article class="person-card">
+                    <img src="./photo_2026-10-24_22-43-46.jpg" alt="Ukam">
+                    <div class="person-overlay">
+                        <span>05 / FAMILY</span>
+                        <h3>Opam</h3>
+                        <p>Ikkinchi onam</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- TEACHER -->
+        <section class="section teacher-section" id="teacher">
+            <div class="section-top">
+                <span class="section-number">03 / MY MENTOR</span>
+                <span class="section-line"></span>
+            </div>
+
+            <div class="teacher-card">
+                <div class="teacher-photo">
+                    <img src="./photo_2026-10-21_17-51-03.jpg" alt="Mening ustozim">
+                    <span class="photo-caption">MY MENTOR ✦</span>
+                </div>
+
+                <div class="teacher-info">
+                    <p class="eyebrow">BILIM VA ILHOM MANBAI</p>
+                    <h2>Har bir muvaffaqiyat<br>
+                        ortida yaxshi <span class="green">ustoz bor.</span>
+                    </h2>
+
+                    <p>
+                        Ustozim menga yangi bilimlarni o‘rgatib,
+                        maqsadlarim sari intilishimga yordam beradi.
+                        Berayotgan bilimlari va mehnatlari uchun
+                        ustozimdan minnatdorman.
+                    </p>
+
+                    <div class="teacher-quote">
+                        “Ilm — kelajak sari eng yaxshi yo‘l.”
+                    </div>
+
+                    <h3>Ustozimning ismi</h3>
+                    <span class="teacher-role">Mening ustozim</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- FRIENDS -->
+        <section class="section friends-section" id="friends">
+            <div class="section-top">
+                <span class="section-number">04 / MY FRIENDS</span>
+                <span class="section-line"></span>
+            </div>
+
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">BIRGA O‘TGAN LAHZALAR</p>
+                    <h2 class="section-title">Do‘stlarim<span class="green">.</span></h2>
+                </div>
+                <p class="section-subtitle">
+                    Kulgu, xotiralar va unutilmas lahzalar.
+                </p>
+            </div>
+
+            <div class="people-grid friends-grid">
+                <article class="person-card">
+                    <img src="./dost2.jpg" alt="Birinchi do‘stim">
+                    <div class="person-overlay">
+                        <span>FRIEND / 01</span>
+                        <h3>Do‘stim 1</h3>
+                        <p>Qadrdonim</p>
+                    </div>
+                </article>
+
+                <article class="person-card">
+                    <img src="./photo_2026-10-22_20-55-30.jpg" alt="Ikkinchi do‘stim">
+                    <div class="person-overlay">
+                        <span>FRIEND / 02</span>
+                        <h3>Do‘stim 2</h3>
+                        <p>Hamfikrim</p>
+                    </div>
+                </article>
+
+                <article class="person-card">
+                    <img src="./photo_2026-10-22_20-55-52.jpg" alt="Uchinchi do‘stim">
+                    <div class="person-overlay">
+                        <span>FRIEND / 03</span>
+                        <h3>Do‘stim 3</h3>
+                        <p>Yaqin do‘stim</p>
+                    </div>
+                </article>
+
+                <article class="person-card">
+                    <img src="./photo_2026-10-22_20-55-58.jpg" alt="To‘rtinchi do‘stim">
+                    <div class="person-overlay">
+                        <span>FRIEND / 04</span>
+                        <h3>Do‘stim 4</h3>
+                        <p>Quvnoq do‘stim</p>
+                    </div>
+                </article>
+
+                <article class="person-card">
+                    <img src="./photo_2026-10-22_20-56-07.jpg" alt="Beshinchi do‘stim">
+                    <div class="person-overlay">
+                        <span>FRIEND / 05</span>
+                        <h3>Do‘stim 5</h3>
+                        <p>Sodiq do‘stim</p>
+                    </div>
+                </article>
+
+                <article class="person-card">
+                    <img src="./photo_2026-10-22_20-56-07.jpg" alt="Oltinchi do‘stim">
+                    <div class="person-overlay">
+                        <span>FRIEND / 06</span>
+                        <h3>Do‘stim 6</h3>
+                        <p>Qadrdonim</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section projects-section" id="projects">
+            <div class="section-top">
+                <span class="section-number">05 / MY WORK</span>
+                <span class="section-line"></span>
+            </div>
+
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">IJODIM VA TAJRIBAM</p>
+                    <h2 class="section-title">Tanlangan <span class="green">loyihalar.</span></h2>
+                </div>
+                <p class="section-subtitle">
+                    Har bir loyiha — yangi tajriba va yangi imkoniyat.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-visual visual-one">
+                        <span>01</span>
+                        <div class="visual-icon">⌂</div>
+                        <p>REAL ESTATE</p>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-type">WEB DESIGN / WEBSITE</p>
+                        <h3>Uy sotish platformasi</h3>
+                        <p>Uylar, rasmlar va ma'lumotlar uchun zamonaviy sayt.</p>
+                        <div class="skill-list">
+                            <span>HTML</span><span>CSS</span>
+                        </div>
+                        <a href="#" class="project-link">Loyihani ko‘rish ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-visual visual-two">
+                        <span>02</span>
+                        <div class="visual-icon">✳</div>
+                        <p>ONLINE STORE</p>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-type">UI DESIGN / WEBSITE</p>
+                        <h3>Online do‘kon</h3>
+                        <p>Mahsulotlar va narxlarni namoyish qiluvchi veb-sayt.</p>
+                        <div class="skill-list">
+                            <span>HTML</span><span>CSS</span>
+                        </div>
+                        <a href="#" class="project-link">Loyihani ko‘rish ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-visual visual-three">
+                        <span>03</span>
+                        <div class="visual-icon">&lt;/&gt;</div>
+                        <p>PERSONAL BRAND</p>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-type">PORTFOLIO / WEBSITE</p>
+                        <h3>Shaxsiy portfolio</h3>
+                        <p>Men va faoliyatim haqida ma'lumot beruvchi sayt.</p>
+                        <div class="skill-list">
+                            <span>HTML</span><span>CSS</span>
+                        </div>
+                        <a href="#home" class="project-link">Loyihani ko‘rish ↗</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- HOBBIES -->
+        <section class="section hobbies-section" id="hobbies">
+            <div class="section-top">
+                <span class="section-number">06 / MY INTERESTS</span>
+                <span class="section-line"></span>
+            </div>
+
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">BO‘SH VAQTIMDA</p>
+                    <h2 class="section-title">Mening <span class="green">hobbiylarim.</span></h2>
+                </div>
+            </div>
+
+            <div class="hobbies-grid">
+                <article class="hobby-card">
                     <span>01</span>
-                    <h3>Dadam</h3>
-                    <p>Oilamiz tayanchi</p>
-                </div>
-            </div>
+                    <div class="hobby-icon">⌨</div>
+                    <h3>Dasturlash</h3>
+                    <p>Yangi saytlar yaratish va kod yozish.</p>
+                </article>
 
-            <div class="person-card">
-                <img src="./Снимок экрана 2026-10-22 211351.png"
-                     alt="Onam">
-                <div class="card-info">
+                <article class="hobby-card">
                     <span>02</span>
-                    <h3>Onam</h3>
-                    <p>Mehribonim</p>
-                </div>
-            </div>
+                    <div class="hobby-icon">⚽</div>
+                    <h3>Sport</h3>
+                    <p>Faol bo‘lish va sport bilan shug‘ullanish.</p>
+                </article>
 
-            <div class="person-card">
-                <img src="./Снимок экрана 2026-10-22 211359.png"
-                     alt="Ukam">
-                <div class="card-info">
+                <article class="hobby-card">
                     <span>03</span>
-                    <h3>Ukam</h3>
-                    <p>Yaqin insonim</p>
-                </div>
-            </div>
+                    <div class="hobby-icon">♫</div>
+                    <h3>Musiqa</h3>
+                    <p>Sevimli musiqalarimni tinglash.</p>
+                </article>
 
-            <div class="person-card">
-                <img src="./Снимок экрана 2026-10-22 211408.png"
-                     alt="Singlim">
-                <div class="card-info">
+                <article class="hobby-card">
                     <span>04</span>
-                    <h3>Singlim</h3>
-                    <p>Quvonchim</p>
-                </div>
+                    <div class="hobby-icon">◈</div>
+                    <h3>O‘yinlar</h3>
+                    <p>Bo‘sh vaqtimni maroqli o‘tkazish.</p>
+                </article>
             </div>
+        </section>
 
-            <div class="person-card">
-                <img src="./Снимок экрана 2026-10-22 211337.png"
-                     alt="Opam">
-                <div class="card-info">
-                    <span>05</span>
-                    <h3>Opam</h3>
-                    <p>Ikkinchi mehribonim</p>
-                </div>
-            </div>
+        <!-- CONTACT CTA -->
+        <section class="contact-cta">
+            <p class="eyebrow">KEYINGI QADAM</p>
+            <h2>Keling, ajoyib<br><span class="gradient-text">g‘oyalar yaratamiz.</span></h2>
+            <a href="#contact" class="button primary">Men bilan bog‘lanish ↗</a>
+        </section>
 
-        </div>
-    </section>
+    </main>
 
-    <!-- DO'STLARIM -->
-    <section class="section friends-section" id="friends">
-        <div class="section-heading">
-            <p>BIRGA O'TGAN LAHZALAR</p>
-            <h2>Mening <span>do‘stlarim</span></h2>
-            <p class="section-description">
-                Yaxshi do‘stlar — hayotning eng chiroyli sovg‘asi.
-            </p>
-        </div>
-
-        <div class="card-grid friends-grid">
-
-            <div class="person-card">
-                <img src="./dost2.jpg"
-                     alt="Do‘stim 1">
-                <div class="card-info">
-                    <span>01</span>
-                    <h3>Do‘stim 1</h3>
-                    <p>Eng yaqin do‘stim</p>
-                </div>
-            </div>
-
-            <div class="person-card">
-                <img src="./photo_2026-10-22_20-55-30.jpg"
-                     alt="Do‘stim 2">
-                <div class="card-info">
-                    <span>02</span>
-                    <h3>Do‘stim 2</h3>
-                    <p>Sodiq do‘stim</p>
-                </div>
-            </div>
-
-            <div class="person-card">
-                <img src="./photo_2026-10-22_20-55-52.jpg"
-                     alt="Do‘stim 3">
-                <div class="card-info">
-                    <span>03</span>
-                    <h3>Do‘stim 3</h3>
-                    <p>Quvnoq do‘stim</p>
-                </div>
-            </div>
-
-            <div class="person-card">
-                <img src="./photo_2026-10-22_20-55-58.jpg"
-                     alt="Do‘stim 4">
-                <div class="card-info">
-                    <span>04</span>
-                    <h3>Do‘stim 4</h3>
-                    <p>Sinfdoshim</p>
-                </div>
-            </div>
-
-            <div class="person-card">
-                <img src="./photo_2026-10-22_20-56-07.jpg"
-                     alt="Do‘stim 5">
-                <div class="card-info">
-                    <span>05</span>
-                    <h3>Do‘stim 5</h3>
-                    <p>Hamfikrim</p>
-                </div>
-            </div>
-
-            <div class="person-card">
-                <img src="./photo_2026-10-22_20-56-12.jpg"
-                     alt="Do‘stim 6">
-                <div class="card-info">
-                    <span>06</span>
-                    <h3>Do‘stim 6</h3>
-                    <p>Qadrdonim</p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- HOBBIYLARIM -->
-    <section class="section hobbies-section" id="hobbies">
-        <div class="section-heading">
-            <p>BO'SH VAQTIMDA</p>
-            <h2>Mening <span>hobbiylarim</span></h2>
-            <p class="section-description">
-                Men yoqtiradigan mashg‘ulotlar.
-            </p>
-        </div>
-
-        <div class="hobby-grid">
-
-            <div class="hobby-card">
-                <div class="hobby-icon">💻</div>
-                <h3>Dasturlash</h3>
-                <p>HTML va CSS orqali chiroyli saytlar yaratish.</p>
-            </div>
-
-            <div class="hobby-card">
-                <div class="hobby-icon">🎮</div>
-                <h3>O‘yinlar</h3>
-                <p>Bo‘sh vaqtimda sevimli o‘yinlarimni o‘ynash.</p>
-            </div>
-
-            <div class="hobby-card">
-                <div class="hobby-icon">⚽</div>
-                <h3>Sport</h3>
-                <p>Sport bilan shug‘ullanish va faol bo‘lish.</p>
-            </div>
-
-            <div class="hobby-card">
-                <div class="hobby-icon">🎵</div>
-                <h3>Musiqa</h3>
-                <p>Sevimli musiqalarimni tinglash.</p>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- FOOTER / ALOQA -->
+    <!-- FOOTER -->
     <footer class="footer" id="contact">
-        <div class="footer-content">
-            <h2>Men bilan <span>bog‘laning</span></h2>
-            <p>
-                Savollaringiz bormi? Men bilan quyidagi manzillar orqali
-                bog‘lanishingiz mumkin.
-            </p>
+        <div class="footer-main">
+            <div class="footer-brand">
+                <a href="#home" class="logo">B<span>.</span></a>
+                <h2>Har kuni bir qadam<br>oldinga.</h2>
+                <p>Bu mening shaxsiy sahifam. Saytimga tashrif buyurganingiz uchun rahmat!</p>
+            </div>
 
-            <div class="contact-list">
-                <a href="https://t.me/jakhangirv7" target="_blank"
-                   rel="noopener noreferrer" class="contact-card">
-                    <span class="contact-icon">✈</span>
+            <div class="footer-contact">
+                <p class="eyebrow">BOG‘LANISH</p>
+
+                <a href="https://t.me/jakhangirv7"
+                   target="_blank" rel="noopener noreferrer" class="contact-item">
+                    <span>↗</span>
                     <div>
-                        <h3>Telegram</h3>
-                        <p>@jakhangirv7</p>
+                        <small>TELEGRAM</small>
+                        <strong>@USERNAME</strong>
                     </div>
                 </a>
 
-                <a href="mailto:xojayevbexzod77@gmail.com" class="contact-card">
-                    <span class="contact-icon">✉</span>
+                <a href="mailto:xojayevbegzod3@gmail.com" class="contact-item">
+                    <span>↗</span>
                     <div>
-                        <h3>Email</h3>
-                        <p>xojayevbexzod77@gmail.com</p>
+                        <small>EMAIL</small>
+                        <strong>xojayevbegzod3@gmail.com</strong>
                     </div>
                 </a>
 
-                <a href="tel:+998901234567" class="contact-card">
-                    <span class="contact-icon">☎</span>
+                <a href="tel:+998901234567" class="contact-item">
+                    <span>↗</span>
                     <div>
-                        <h3>Telefon</h3>
-                        <p>+998 94 275 28 38</p>
+                        <small>TELEFON</small>
+                        <strong>+998 94 265 28 38</strong>
                     </div>
                 </a>
             </div>
         </div>
 
         <div class="footer-bottom">
-            <a href="#home" class="logo">My<span>Portfolio.</span></a>
             <p>© 2026 Begzod. Barcha huquqlar himoyalangan.</p>
-            <a href="#home" class="back-top">Yuqoriga ↑</a>
+            <a href="#home">YUQORIGA ↑</a>
+            <p>HTML & CSS bilan yaratildi ♥</p>
         </div>
     </footer>
 
